@@ -4,6 +4,7 @@ public class B9498 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Short score = s.nextShort();
+        s.close();
         if (score >= 90)
             System.out.println('A');
         else if (score >= 80)
@@ -14,7 +15,5 @@ public class B9498 {
             System.out.println('D');
         else 
             System.out.println('F');
-        
-
     }
 }
