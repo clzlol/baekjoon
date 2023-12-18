@@ -6,6 +6,7 @@ public class B11382 {
     Long a = s.nextLong();
     Long b = s.nextLong();
     Long c = s.nextLong();
+    s.close();
     System.out.println(a+b+c);
   }
 }
